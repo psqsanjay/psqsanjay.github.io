@@ -19,12 +19,21 @@
                 <key>bundle-identifier</key>
                 <string>com.com.ocevent.ocevents</string>
                 <key>bundle-version</key>
-                <string>0.0.5</string>
+                <string>0.0.6</string>
                 <key>kind</key>
                 <string>software</string>
                 <key>title</key>
                 <string>Live</string>
             </dict>
+            <key>CFBundleURLTypes</key>
+            <array>
+              <dict>
+                <key>CFBundleURLSchemes</key>
+                <array>
+                  <string>live</string>
+                </array>
+              </dict>
+            </array>
         </dict>
     </array>
 </dict>
